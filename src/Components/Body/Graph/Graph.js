@@ -1,5 +1,5 @@
 import React from 'react';
-import Chart from './Chart/Chart';
+import ChartNew from './ChartNew/ChartNew';
 import './Graph.css'
 import GraphFeatures from './GraphFeatures/GraphFeatures';
 
@@ -15,7 +15,7 @@ const Graph = () => {
     return (
         <div className="d-flex row text-white">
 
-            <div className="col-md-6 px-5">
+            <div className="col-md-12 col-lg-6 px-5">
                 <div className=" d-flex flex-column bd-highlight mb-3 pt-5">
                 {
                     features.map(feature => <GraphFeatures feature={feature} ></GraphFeatures>)
@@ -23,8 +23,8 @@ const Graph = () => {
                 </div>
 
             </div>
-            <div className="col-md-6">
-                <Chart></Chart>
+            <div className="col-md-12 col-lg-6">
+                <ChartNew></ChartNew>
             </div>
 
         </div>

@@ -1,7 +1,20 @@
 
-
+.footer__section{
+    position: relative;
+}
 
 .footer__items{
     border-top: 1px solid #196781;
-    border-bottom: 1px solid #196781;;
+    border-bottom: 1px solid #196781;
 }
+
+
+.footer__loop{
+    bottom: -20px;
+    right:90px;
+    height: 200px;
+    width: auto;
+    object-fit:cover;
+    margin: 25px;
+}
+

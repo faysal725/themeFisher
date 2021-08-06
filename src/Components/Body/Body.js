@@ -9,13 +9,16 @@ import Schedule from './Schedule/Schedule';
 
 const Body = () => {
     return (
+        <div>
         <div className="container pt-5">
             <Collaborative></Collaborative>
             <Schedule></Schedule>
             <Graph></Graph>
             <Customers></Customers>
             <HelpTeams></HelpTeams>
-            <Footer></Footer>
+            
+        </div>
+        <Footer></Footer>
         </div>
     );
 };
