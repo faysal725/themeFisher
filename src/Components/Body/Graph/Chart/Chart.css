@@ -1,0 +1,125 @@
+.one {
+    width: 40px;
+    height: 300px;
+    bottom: 45px;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(35vw - 15px);
+    background: linear-gradient(to top, blue 70%, pink 70% 85%, purple 85%);
+  }
+  .one:after {
+    content: "S";
+    width: 100px;
+    font-size: 20px;
+    position: absolute;
+    left: calc(50% - 6px);
+    bottom: -30px;
+  }
+  
+  .two {
+    width: 40px;
+    bottom: 45px;
+    height: 250px;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(40vw - 15px);
+    background: linear-gradient(to top, blue 50%, pink 50% 65%, purple 65%);
+  }
+  .two:after {
+    width: 100px;
+    font-size: 20px;
+    position: absolute;
+    left: calc(50% - 8px);
+    bottom: -30px;
+    content: "M";
+  }
+  
+  .three {
+    width: 40px;
+    bottom: 45px;
+    height: 280px;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(45vw - 15px);
+    background: linear-gradient(to top, blue 20%, pink 20% 55%, purple 55%);
+  }
+  .three:after {
+    content: "T";
+    width: 100px;
+    font-size: 20px;
+    position: absolute;
+    left: calc(50% - 6px);
+    bottom: -30px;
+  }
+  
+  .four {
+    width: 40px;
+    height: 200px;
+    bottom: 45px;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(50vw - 15px);
+    background: linear-gradient(to top, blue 10%, pink 10% 35%, purple 35%);
+  }
+  .four:after {
+    content: "W";
+    width: 100px;
+    font-size: 20px;
+    position: absolute;
+    left: calc(50% - 8px);
+    bottom: -30px;
+  }
+  
+  .five {
+    width: 40px;
+    bottom: 45px;
+    height: 250px;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(55vw - 15px);
+    background: linear-gradient(to top, blue 50%, pink 50% 65%, purple 65%);
+  }
+  .five:after {
+    width: 100px;
+    font-size: 20px;
+    position: absolute;
+    left: calc(50% - 5px);
+    bottom: -30px;
+    content: "T";
+  }
+  
+  .six {
+    width: 40px;
+    bottom: 45px;
+    height: 280px;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(60vw - 15px);
+    background: linear-gradient(to top, blue 20%, pink 20% 55%, purple 55%);
+  }
+  .six:after {
+    content: "F";
+    width: 100px;
+    font-size: 20px;
+    position: absolute;
+    left: calc(50% - 5px);
+    bottom: -30px;
+  }
+  
+  .seven {
+    width: 40px;
+    height: 230px;
+    bottom: 45px;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(65vw - 15px);
+    background: linear-gradient(to top, blue 10%, pink 10% 35%, purple 35%);
+  }
+  .seven:after {
+    content: "S";
+    width: 100px;
+    font-size: 20px;
+    position: absolute;
+    left: calc(50% - 5px);
+    bottom: -30px;
+  }
