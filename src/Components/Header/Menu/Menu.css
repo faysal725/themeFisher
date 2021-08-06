@@ -1,0 +1,33 @@
+
+
+.main__nav li{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+
+
+
+.main__nav li a:hover{
+    border-top: 4px solid #0B4C61;
+}
+
+
+.basic__btn{
+
+    background-color:#FF3A44;
+    border-radius:20px;
+    color:white;
+    font-weight: bolder;
+} 
+
+
+.basic__btn:hover{
+    background-color: white;
+    color:#FF3A44
+}
+
+.sign__up__btn{
+    width:145px;
+    height: 42px;
+}
